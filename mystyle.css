@@ -58,3 +58,29 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.social-wrapper {
+  background-color: #93b0fa;
+  text-align: center;
+}
+
+.social-wrapper ul li {
+  display: inline;
+  margin: 2.5px;
+}
+
+.facebook-icon,
+.instagram-icon {
+  margin-top: 0.62em;
+  width: 40px;
+  height: 40px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  border-radius: 25px;
+}
+
+.instagram-icon:hover,
+.facebook-icon:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
