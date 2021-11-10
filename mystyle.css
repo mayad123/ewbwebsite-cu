@@ -1,6 +1,8 @@
 .body {
   height: 100%;
   width: 100%;
+  padding: 0;
+  background-color: #93b0fa;
 }
 
 .firstbg {
@@ -59,6 +61,8 @@
   background-size: cover;
 }
 
+/* --------------- SOCIAL MEDIA FOOTER STYLING ----------------------------- */
+
 .social-wrapper {
   background-color: #93b0fa;
   text-align: center;
@@ -71,7 +75,8 @@
 
 .facebook-icon,
 .instagram-icon {
-  margin-top: 0.62em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
   width: 40px;
   height: 40px;
   opacity: 0.6;
