@@ -64,7 +64,7 @@
     font-family: Tahoma, sans-serif;
   }
 
-/* --------------- Second photo home page STYLING ----------------------------- */
+/* --------------- Second photo home page, title STYLING ----------------------------- */
 .secondbg{
     background-image: url(first.JPG);
     width: 100%;
@@ -73,6 +73,29 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.secondbg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.25);
+}
+
+.projTitle{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 470;
+    font-size: 60px;
+    letter-spacing: .9px;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
 }
 
 /* --------------- Third photo home page STYLING ----------------------------- */
@@ -84,6 +107,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.thirdbg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.25);
 }
 
 /* --------------- SOCIAL MEDIA FOOTER STYLING ----------------------------- */
