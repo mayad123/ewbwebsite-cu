@@ -1,91 +1,121 @@
-.body {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  background-color: #93b0fa;
+.body{
+    height: 100%;
+    width: 100%;
 }
 
-.firstbg {
-  background-image: url("photos/first3.JPG");
-  width: 100%;
-  height: 900px;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* --------------- First Photo, nav, logo, title, button STYLING ----------------------------- */
+
+.firstbg{
+    background-image: url(first3.JPG);
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.logo {
-  padding-left: 20px;
-  padding-top: 20px;
+.firstbg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
 }
 
-.nav {
-  padding-right: 30px;
-  padding-top: 40px;
-  float: right;
-  position: relative;
-  z-index: 2;
-}
-.nav a {
-  color: black;
-  font-family: Tahoma, sans-serif;
-  text-align: center;
-  padding: 14px 25px;
-  letter-spacing: 0.7px;
-  color: white;
-  font-weight: 300;
-  text-decoration: none;
-  font-size: 17px;
-  position: relative;
-  z-index: 2;
+.logo{
+    padding-left: 20px;
+    padding-top: 20px
 }
 
-.secondbg {
-  background-image: url("photos/first.JPG");
-  width: 100%;
-  height: 900px;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.nav{
+    padding-right: 30px;
+    padding-top: 40px;
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+.nav a{
+    color: black;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    padding: 14px 25px;
+    letter-spacing: .7px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    z-index: 2;
 }
 
-.thirdbg {
-  background-image: url("photos/first5.JPG");
-  width: 100%;
-  height: 700px;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.EWBTitle {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-25%, -70%);
+    color: white;
+    font-weight: 470;
+    font-size: 60px;
+    letter-spacing: .9px;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+  }
+
+/* --------------- Second photo home page STYLING ----------------------------- */
+.secondbg{
+    background-image: url(first.JPG);
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --------------- Third photo home page STYLING ----------------------------- */
+.thirdbg{
+    background-image: url(first5.JPG);
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* --------------- SOCIAL MEDIA FOOTER STYLING ----------------------------- */
 
 .social-wrapper {
-  background-color: #93b0fa;
-  text-align: center;
-}
-
-.social-wrapper ul li {
-  display: inline;
-  margin: 2.5px;
-}
-
-.facebook-icon,
-.instagram-icon {
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
-  width: 40px;
-  height: 40px;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-  border-radius: 25px;
-}
-
-.instagram-icon:hover,
-.facebook-icon:hover {
-  opacity: 1;
-  filter: alpha(opacity=100); /* For IE8 and earlier */
-}
+    background-color: #93b0fa;
+    text-align: center;
+  }
+  
+  .social-wrapper ul li {
+    display: inline;
+    margin: 2.5px;
+  }
+  
+  .facebook-icon,
+  .instagram-icon {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+  }
+  
+  .instagram-icon:hover,
+  .facebook-icon:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+  © 2021 GitHub, Inc.
+  Terms
+  Privacy
+  Security
+  Status
