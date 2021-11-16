@@ -228,18 +228,60 @@
 
 .values-wrapper{
   width: 100%;
-  height:500px;
+  height:1000px;
 }
 
 .global-awarness-wrapper{
   width:80%;
   height:25%;
+  position: relative;
 }
 
 .fa-globe{
-  padding-left: 60px;
+  padding-left: 70px;
   float: left;
   margin-right: 50px;
+}
+
+.compassion-wrapper{
+  width:80%;
+  height:25%;
+  float:right;
+  position: relative;
+  margin-top: -35px;
+}
+
+.fa-heart{
+  padding-right: 60px;
+  float: right;
+  margin-left: 60px;
+}
+
+.collaboration-wrapper{
+  width:80%;
+  height:25%;
+  margin-top: 240px;
+  position: relative;
+}
+
+.fa-handshake-o{
+  padding-left: 55px;
+  float: left;
+  margin-right: 50px
+}
+
+.technical-wrapper{
+  width:80%;
+  height:25%;
+  float:right;
+  position: relative;
+  margin-top: -25px;
+}
+
+.fa-wrench{
+  padding-right: 60px;
+  float: right;
+  margin-left: 60px;
 }
 
 .value-title{
