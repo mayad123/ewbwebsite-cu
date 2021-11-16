@@ -202,16 +202,57 @@
 
 /* --------------- ABOUT US STYLING ----------------------------- */
 
+.about-us-bg{background-image: url(photos/photo6.JPG);
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us-bg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.45);
+}
 .aboutUs{
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 30px;
 }
 
-.fa-globe{
-  padding-left: 60px;
+.values-wrapper{
+  width: 100%;
+  height:500px;
 }
 
+.global-awarness-wrapper{
+  width:80%;
+  height:25%;
+}
+
+.fa-globe{
+  padding-left: 60px;
+  float: left;
+  margin-right: 50px;
+}
+
+.value-title{
+  font-size: 25px;
+  padding-top:30px;
+  font-family: 'Lato', sans-serif;
+  color:rgb(3, 115, 150);
+}
+
+.value-text{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
 
 /* --------------- SOCIAL MEDIA FOOTER STYLING ----------------------------- */
 
