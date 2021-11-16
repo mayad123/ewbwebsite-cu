@@ -252,7 +252,7 @@
 }
 
 .fa-heart{
-  padding-right: 60px;
+  padding-right: 70px;
   float: right;
   margin-left: 60px;
 }
@@ -294,6 +294,14 @@
 .value-text{
   font-size: 20px;
   font-family: 'Lato', sans-serif;
+}
+
+.team-descrip{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
 }
 
 /* --------------- SOCIAL MEDIA FOOTER STYLING ----------------------------- */
