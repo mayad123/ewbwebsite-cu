@@ -39,7 +39,7 @@
 }
 .nav a {
   color: black;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding: 14px 25px;
   letter-spacing: 0.7px;
@@ -61,7 +61,7 @@
   font-size: 60px;
   letter-spacing: 0.9px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .button-wrapper {
@@ -78,7 +78,7 @@
   margin: 575px 45%;
   color: white;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-decoration: none;
 }
 
@@ -91,7 +91,7 @@
   background-color: white;
   color: black;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   transition: 0.35s;
 }
 
@@ -126,7 +126,7 @@
   font-size: 60px;
   letter-spacing: 0.9px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /* Learn More button */
@@ -138,7 +138,7 @@
   margin: 550px 45%;
   color: white;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-decoration: none;
 }
 
@@ -151,7 +151,7 @@
   background-color: white;
   color: black;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   transition: 0.35s;
 }
 
@@ -184,7 +184,7 @@
   margin: 500px 45%;
   color: white;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-decoration: none;
 }
 
@@ -196,13 +196,14 @@
   background-color: white;
   color: black;
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   transition: 0.35s;
 }
 
 /* --------------- ABOUT US STYLING ----------------------------- */
 
-.about-us-bg{background-image: url(photos/photo6.JPG);
+.about-us-bg {
+  background-image: url(photos/photo6.JPG);
   width: 100%;
   height: 700px;
   position: relative;
@@ -220,97 +221,104 @@
   left: 0px;
   background-color: rgba(0, 0, 0, 0.45);
 }
-.aboutUs{
+.aboutUs {
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 30px;
 }
 
-.values-wrapper{
+.values-wrapper {
   width: 100%;
-  height:1000px;
+  height: 1000px;
 }
 
-.global-awarness-wrapper{
-  width:80%;
-  height:25%;
+.global-awarness-wrapper {
+  width: 80%;
+  height: 25%;
   position: relative;
 }
 
-.fa-globe{
+.fa-globe {
   padding-left: 70px;
   float: left;
   margin-right: 50px;
 }
 
-.compassion-wrapper{
-  width:80%;
-  height:25%;
-  float:right;
+.compassion-wrapper {
+  width: 80%;
+  height: 25%;
+  float: right;
   position: relative;
   margin-top: -35px;
 }
 
-.fa-heart{
+.fa-heart {
   padding-right: 70px;
   float: right;
   margin-left: 60px;
 }
 
-.collaboration-wrapper{
-  width:80%;
-  height:25%;
+.collaboration-wrapper {
+  width: 80%;
+  height: 25%;
   margin-top: 240px;
   position: relative;
 }
 
-.fa-handshake-o{
+.fa-handshake-o {
   padding-left: 55px;
   float: left;
-  margin-right: 50px
+  margin-right: 50px;
 }
 
-.technical-wrapper{
-  width:80%;
-  height:25%;
-  float:right;
+.technical-wrapper {
+  width: 80%;
+  height: 25%;
+  float: right;
   position: relative;
   margin-top: -25px;
 }
 
-.fa-wrench{
+.fa-wrench {
   padding-right: 60px;
   float: right;
   margin-left: 60px;
 }
 
-.value-title{
+.value-title {
   font-size: 25px;
-  padding-top:30px;
-  font-family: 'Lato', sans-serif;
-  color:rgb(3, 115, 150);
+  padding-top: 30px;
+  font-family: "Lato", sans-serif;
+  color: rgb(3, 115, 150);
 }
 
-.value-text{
+/* .box {
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+} */
+​ .value-text {
+  border: 1px solid white;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
 }
 
-.description-wrapper{
+.description-wrapper {
   width: 80%;
   border: 5px;
-  border-style:solid;
-  text-align:center;
+  border-style: solid;
+  text-align: center;
   border-color: rgb(3, 115, 150);
   margin-left: 10%;
-  margin-right:10%;
+  margin-right: 10%;
   margin-bottom: 40px;
-  margin-top:-25px;
+  margin-top: -25px;
 }
 
-.team-descrip{
+.team-descrip {
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
