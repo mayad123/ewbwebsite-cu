@@ -66,7 +66,6 @@
 
 .button-wrapper {
   text-align: center;
-  position: center;
   color: white;
 }
 /* ABOUT US button ---------- */
@@ -234,7 +233,7 @@
 
 .global-awarness-wrapper {
   width: 80%;
-  height: 25%;
+  height: 15%;
   position: relative;
 }
 
@@ -246,7 +245,7 @@
 
 .compassion-wrapper {
   width: 80%;
-  height: 25%;
+  height: 15%;
   float: right;
   position: relative;
   margin-top: -35px;
@@ -260,8 +259,8 @@
 
 .collaboration-wrapper {
   width: 80%;
-  height: 25%;
-  margin-top: 240px;
+  height: 15%;
+  margin-top: 150px;
   position: relative;
 }
 
@@ -297,16 +296,22 @@
   font-family: "Lato", sans-serif;
 } */
 
-.p {
+p {
   font-family: "Lato", sans-serif;
 }
-​ .value-text {
-  border: 1px solid white;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 20px;
-  font-family: "Lato", sans-serif;
-  color: white;
+
+#one{
+    border: 1px solid white;
+
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+#two{
+    border: 1px solid white;
+    padding-left:15%;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
 }
 
 .description-wrapper {
