@@ -10,6 +10,7 @@
   width: 100%;
   height: 900px;
   position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,6 +102,7 @@
   width: 100%;
   height: 900px;
   position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,6 +163,7 @@
   width: 100%;
   height: 700px;
   position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,6 +210,7 @@
   width: 100%;
   height: 700px;
   position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -348,6 +352,7 @@ p {
   width: 100%;
   height: 700px;
   position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,8 +389,9 @@ p {
 .small-photo-team{
   background-image: url(photos/tanzaniapt2.jpg);
   width: 100%;
-  height: 250px;
+  height: 12vw;
   position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -404,8 +410,9 @@ p {
 .small-photo-team-2{
   background-image: url(photos/tanzania3.jpg);
   width: 100%;
-  height: 250px;
+  height: 12vw;
   position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
