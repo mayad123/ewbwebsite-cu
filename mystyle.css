@@ -43,12 +43,12 @@
   color: black;
   font-family: "Lato", sans-serif;
   text-align: center;
-  padding: 14px 25px;
+  padding: 1vw 1vw;
   letter-spacing: 0.7px;
   color: white;
   font-weight: 300;
   text-decoration: none;
-  font-size: 1.0vw;
+  font-size: 1.3vw;
   position: relative;
   z-index: 2;
 }
@@ -348,6 +348,140 @@ p {
   padding-right: 20px;
   padding-bottom: 10px;
 }
+/* --------------- Project PAGE STYLING ----------------------------- */
+.projects-bg {
+  background-image: url(photos/projectsBG.jpg);
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects-bg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+div.subteams {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+div.subteams h3.title {
+  font-style: bold;
+  font-size: 5vw;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  position: absolute;
+  z-index: 999;
+  font-family: "Lato", sans-serif;
+}
+
+div.w3-container1 {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 30vw;
+  height: 20vw;
+  padding: 2vw 2vw;
+  margin: 2vw 2vw;
+  text-align: center;
+  background-image: url(photos/tanzaniaBG.JPG);
+  background-size: 30vw 20vw;
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px 0px rgba(0.123, 0, 0, 0.123);
+}
+
+div.w3-container2 {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 30vw;
+  height: 20vw;
+  padding: 2vw 2vw;
+  margin: 2vw 2vw;
+  text-align: center;
+  background-image: url(photos/Clouds.jpg);
+  background-size: 30vw 20vw;
+  opacity: 0.80;
+  box-shadow: 0px 0px 10px 0px rgba(0.123, 0, 0, 0.123);
+}
+
+div.w3-container3 {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 30vw;
+  height: 20vw;
+  padding: 2vw 2vw;
+  margin: 2vw 2vw;
+  text-align: center;
+  background-image: url(photos/Clouds.jpg);
+  background-size: 30vw 20vw;
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px 0px rgba(0.123, 0, 0, 0.123);
+}
+
+div.w3-container4 {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 30vw;
+  height: 20vw;
+  padding: 2vw 2vw;
+  margin: 2vw 2vw;
+  text-align: center;
+  background-image: url(photos/Clouds.jpg);
+  background-size: 30vw 20vw;
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px 0px rgba(0.123, 0, 0, 0.123);
+}
+
+div.w3-container5 {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 30vw;
+  height: 20vw;
+  padding: 2vw 2vw;
+  margin: 2vw 2vw;
+  text-align: center;
+  background-image: url(photos/Clouds.jpg);
+  background-size: 30vw 20vw;
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px 0px rgba(0.123, 0, 0, 0.123);
+}
+
+div.w3-container6 {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 30vw;
+  height: 20vw;
+  padding: 2vw 2vw;
+  margin: 2vw 2vw;
+  text-align: center;
+  background-image: url(photos/Clouds.jpg);
+  background-size: 30vw 20vw;
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px 0px rgba(0.123, 0, 0, 0.123);
+}
+
+.pop:hover{
+  top:-1.5vw;
+  transition-duration: 2s;
+}
+
 
 /* --------------- Tanzania PAGE STYLING ----------------------------- */
 
