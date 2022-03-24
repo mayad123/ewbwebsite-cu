@@ -1127,3 +1127,21 @@ input[type=submit]:hover {
   opacity: 80;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
+
+.myGallery .eboarditem{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 0 1vw 1vw rgb(0 0 0 /10%);
+}
+
+.myGallery .eboarditemblank{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.footerbottom{
+    margin-top:43%;
+}
