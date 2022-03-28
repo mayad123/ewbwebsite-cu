@@ -113,10 +113,6 @@
   font-family: "Lato", sans-serif;
 }
 
-.button-wrapper {
-  text-align: center;
-  color: white;
-}
 /* ABOUT US button ---------- */
 .b1-about {
   position: absolute;
@@ -136,12 +132,14 @@
   border: 2px solid white;
   padding: 15px;
   margin: 575px 45%;
-  background-color: white;
+  background-color: rgb(156, 156, 156);
   color: black;
   font-size: 1.4vw;
   font-family: "Lato", sans-serif;
   transition: 0.35s;
+
 }
+
 
 /* --------------- Second photo home page, title STYLING ----------------------------- */
 .secondbg {
@@ -183,6 +181,7 @@
   position: absolute;
   top: 0%;
   border: 2px solid white;
+  background-color: transparent;
   padding: 15px;
   margin: 550px 45%;
   color: white;
@@ -197,7 +196,7 @@
   border: 2px solid white;
   padding: 15px;
   margin: 550px 45%;
-  background-color: white;
+  background-color: rgb(156, 156, 156);
   color: black;
   font-size: 1.2vw;
   font-family: "Lato", sans-serif;
@@ -243,7 +242,7 @@
   border: 2px solid white;
   padding: 15px;
   margin: 500px 45%;
-  background-color: white;
+  background-color: rgb(156, 156, 156);
   color: black;
   font-size: 1.4vw;
   font-family: "Lato", sans-serif;
@@ -1005,18 +1004,113 @@ div.w3-container6 {
   left: 0px;
   background-color: rgba(0, 0, 0, 0.35);
 }
+
+.eBio{
+  font-family: "Lato", sans-serif;
+  margin-top: 0.5vw;
+}
+
+.team-wrapperEB{
+  width: 85%;
+  height: 54vw;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
+  align-content:center;
+}
+
+.myGalleryEB {
+  display: grid;
+  grid-gap: 1vw;
+  margin-top: 3vw;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.myGalleryEB img {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 14vw;
+}
+
+.myGalleryEB .item {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1vw 1vw rgba(0,0,0,.1);
+  padding: 1vw;
+  height: 35vw;
+}
+
+.myGalleryEB .spitem {
+  position: relative;
+  overflow: hidden;
+}
+
+.myGalleryEB .item img {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.myGalleryEB .caption {
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  transition: transform 0.5s;
+  transform: translateY(100%);
+  background: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+}
+
+.myGalleryEB .item:hover .caption {
+  transform: translateY(0%);
+}
+
+.name-text{
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-bottom: -0.2%;
+  margin-top: -0.08%;
+  font-weight: 400;
+}
+
+.email-button{
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.5vw;
+  border-style: none;
+}
+
+.email-button:hover{
+  font-size: 2vw;
+}
+
+.fa-envelope{
+  margin-top: 0.3vw;
+  color: white;
+}
 /* --------------- ContactUs PAGE STYLING ----------------------------- */
 
 .contact-text{
   font-family: "Lato", sans-serif;
   font-size: 2vw;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   margin-top: 2%;
 }
 
 .contactus-bg {
-  background-image: url(photos/contactusBG.png);
+  background-image: url(photos/contactusBG.jpg);
   width: 100%;
   height: 500px;
   position: relative;
@@ -1083,13 +1177,212 @@ input[type=submit]:hover {
   float:left;
 
 }
+/* --------------- ALUMNI STYLING ----------------------------- */
+
+.alumnni-bg {
+  background-image: url(photos/alumniBG.png);
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alumni-bg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containerAlumni {
+  position: relative;
+  margin-top: 2vw;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: 40vw;
+}
+
+.mylides.clicked{
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* EWB Class  */
+.numbertext {
+  color: #ffffff;
+  font-size: 1.3vw;
+  padding: 8px 12px;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 37vw;
+  width: 70%;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.rowA:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* --------------- Join Us Page STYLING ----------------------------- */
+
+.joinus-bg {
+  background-image: url(photos/group.JPG);
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.joinus-bg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.question{
+  margin-top: -4%;
+  margin-left: 7%;
+  font-weight: 700;
+}
+
+.tri{
+  margin-right: 1%;
+  font-size: 2vw; 
+  margin-top: -1%;
+  margin-left: 2%;
+}
+
+.questionBox{
+  width:60%;
+  margin-left: 20%;
+  border:0.1vw; 
+  border-style:solid; 
+  border-color:black; 
+  padding: 1vw;
+  border-radius: 2vw;
+  margin-top: 2%;
+  font-family: "Lato", sans-serif;
+}
+
+.accordion1 {
+  color: black;
+  font-family: "Lato", sans-serif;
+  background-color: white;
+  cursor: pointer;
+  border:0.1vw; 
+  border-style:solid; 
+  border-color:black; 
+  padding: 1vw;
+  width: 70%;
+  border-radius: 2vw;
+  margin-top: 1%;
+  margin-left: 15%;
+  text-align: left;
+  outline: none;
+  font-size: 1.3vw;
+  transition: 0.4s;
+  height: 4vw;
+}
+
+.accordion1:hover {
+  background-color: #dff5f7;
+}
+
+.panel {
+  padding: 0 1.7vw;
+  margin-top: 0.3%;
+  background-color: white;
+  max-height: 0;
+  font-family: "Lato", sans-serif;
+  border-radius: 2vw;
+  width: 70%;
+  margin-left: 15%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: 'Roboto';
+}
 
 /* --------------- SOCIAL MEDIA FOOTER STYLING ----------------------------- */
 
 .social-wrapper {
   background-color: white;
   text-align: center;
-  height: 4.8vw;
+  height: 9vw;
   font-size: 2.7vw;
   margin-top: -2.5%;
   margin-bottom: -1%;
@@ -1097,22 +1390,25 @@ input[type=submit]:hover {
 
 .social-wrapper ul li {
   display: inline;
+  text-align: center;
 }
 
 .icon-wrapper{
   position: relative;
-  width: 20%;
-  margin-right: 40%;
-  margin-left: 39%;
+  width: 30%;
+  text-align: center;
+  margin-left: 33%;
 }
 
 .fa-facebook-square,
 .fa-instagram,
-.fa-linkedin
+.fa-linkedin,
+.fa-envelope-o
 {
-  padding-top: 2%;
-  margin-bottom: 2%;
-  margin-right:3.6%;
+  padding-top: 0%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  text-align: center;
   transform: translateY(25%);
   color: #547da3;
   opacity: 1.0;
@@ -1122,26 +1418,19 @@ input[type=submit]:hover {
 
 .fa-facebook-square:hover,
 .fa-instagram:hover,
-.fa-linkedin:hover {
+.fa-linkedin:hover,
+.fa-envelope-o:hover {
   color:black;
   opacity: 80;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
-.myGallery .eboarditem{
-    position: relative;
-    height: 600px;
-    overflow: hidden;
-    box-shadow: 0 1vw 1vw rgb(0 0 0 /10%);
-}
-
-.myGallery .eboarditemblank{
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-
-}
-
-.footerbottom{
-    margin-top:43%;
+.footerText{
+  font-family: "Lato", sans-serif;
+  font-size: 1.3vw;
+  width: 100%;
+  text-align: center;
+  color: #547da3;
+  margin-bottom: 2%;
+  margin-top: -4%;
 }
