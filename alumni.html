@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title></title>
+      <link rel="stylesheet" href="mystyle.css"></link>
+      <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <div class = "alumnni-bg">
+        <!--nav start-->
+        <ul class = "navbar">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a>
+            <ul class="dropdown">
+              <li><a href="alumni.html">ALUMNI</a></li>
+              <li><a href="eboard.html">EXEC-BOARD</a></li>
+            </ul></li>
+          <li><a href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=16421&bledit=1&dids=285." target="_blank">GIVING</a></li>
+            <li>
+                <a href="project.html">PROJECTS</a>
+                <ul class="dropdown">
+                    <li><a href="Tanzania.html">TANZANIA</a></li>
+                    <li><a href="softdev.html">SOFTWARE DEVELOPMENT</a></li>
+                    <li><a href="digag.html">DIGITAL AGRICULTURE</a></li>
+                    <li><a href="domestic.html">DOMESTIC</a></li>
+                    <li><a href="business.html">BUSINESS</a></li>
+                </ul>
+            </li>
+          
+          <li><a href="contactus.html">CONTACT US</a>
+          <ul class="dropdown">
+            <li><a href="joinus.html">JOIN US</a>
+          </ul></li>
+      </ul>
+    
+            <!--nav end-->
+          <!--logo start-->
+          <a href="index.html"><div class = "logo"><img src="photos/logo.png" alt="logo"
+            width = "13%"
+            height = "3%"/></div></a>
+            <!--logo end-->
+  
+  
+          <!--Title EWB-CORNELL-->
+          <div class = "projTitle">ALUMNI</div>
+      </div>
+      <div class = "project-about"><h2 style="font-weight: 600; font-size: 2.3vw;">OUR ALMUNI</h2></div>
+
+    <div class="team-descrip-wrapper" style = "height: 15vw;">
+
+      <p class = "team-text" style="width: 50%;margin-top: 1vw;">As a diverse and interdisciplinary team, our members have gone on to do amazing things in different companies, organizations, and 
+        grad schools. With alumn at Amazon, Google, Apple, SpaceX, and more, we know that they are pursuing and working on innovative products,
+        designs, and solutions in their respective industries. <br> If you are an alumn and are 
+        interested in coming into our Gbodies to speak about your work or anything else, please <a href="mailto:ewb@cornell.edu">email us</a>!
+      </p>
+      <div class = "companyCollage"><img src="photos/companyCollage.jpg" style="height: 18vw; width: 33vw; margin-left: 56%; margin-top: -28%;"></div>
+    </div>
+  
+      <div class="small-photo-team-5">
+        <div class = "projTitle">OUR PAST TEAMS</div>
+      </div>
+
+      <div class="containerAlumni">
+        <div class="mySlides">
+          <div class="numbertext">EWB 2019</div>
+          <img src="photos/EWB_2019.jpg" style="width:70%; margin-left: 15%; height: 40vw;">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">EWB 2018</div>
+          <img src="photos/EWB_2018.jpg" style="width:70%; margin-left: 15%; height: 40vw;">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">EWB 2017</div>
+          <img src="photos/EWB_2017.jpg" style="width:70%; margin-left: 15%; height: 40vw;">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">EWB 2016</div>
+          <img src="photos/EWB_2016.jpg" style="width:70%; margin-left: 15%; height: 40vw;">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">EWB 2015</div>
+          <img src="photos/EWB_2015.jpg" style="width:70%; margin-left: 15%; height: 40vw;">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">EWB 2014</div>
+          <img src="photos/EWB_2014.jpg" style="width:70%; margin-left: 15%; height: 40vw;">
+        </div>
+          
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+  
+
+     
+  </body>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+  
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="social-wrapper">
+      <div class = "icon-wrapper">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/ewbcornell/?hl=en" target="_blank">
+              <i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/EWBCornell/" target="_blank">
+              <i class="fa fa-facebook-square" ></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/ewb-cornell/" target="_blank">
+              <i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class = "footerText">Engineers Without Borders - Cornell University </div>
+  </footer>
+
+</html>

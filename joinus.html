@@ -9,7 +9,7 @@
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
-    <div class = "contactus-bg">
+    <div class = "joinus-bg">
         <!--nav start-->
         <ul class = "navbar">
           <li><a href="index.html">HOME</a></li>
@@ -32,7 +32,7 @@
           
           <li><a href="contactus.html">CONTACT US</a>
           <ul class="dropdown">
-            <li><a href="joinus.html">JOIN US</a>
+            <li><a href="joinus.html.html">JOIN US</a>
           </ul></li>
       </ul>
     
@@ -45,35 +45,46 @@
   
   
           <!--Title EWB-CORNELL-->
-          <div class = "projTitle">CONTACT US</div>
+          <div class = "projTitle">JOIN US</div>
       </div>
-  
-      <div class = "contact-text">Get in touch with our team!</div>
+      <div class = "project-about"><h2 style="font-weight: 600; font-size: 2.3vw;">OUR TEAM</h2></div>
 
-      <!--Contact us form-->
-      <div class="container">
-        <form action="/action_page.php">
-        <div class = "smallInputFN">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="team-descrip-wrapper" style = "height: 5vw;">
+
+      <p class = "team-text" style="text-align: center;">Hi, thank you for you interest in joining our team! We are not recruiting right now, but check back again during the beginning of Fall 2022 semester.</p>
+    </div>
+
+    <div class="small-photo-team-5">
+      <div class = "projTitle">FAQs</div>
+    </div>
+  
+    <button class="accordion1">
+            <div class = "tri" style = "color:#547da3;">&#9660</div>
+            <div class = "question">Do I have to have experience before joining?</div></button>
+        <div class="panel">
+          <p>No! As a student project team, we are looking for passionate individuals who are interested in pursuing our projects and learning from them too.
+        </p>
         </div>
-        <div class = "smallInputLN">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        </div>
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Email..">
-      
-          <label for="country">Subject</label>
-          <input type="text" id="subject" name="subject" placeholder="Subject..">
-      
-          <label for="subject">Message</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
-      </div>
+
   </body>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion1");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+  </script>
+
   <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="social-wrapper">
       <div class = "icon-wrapper">
