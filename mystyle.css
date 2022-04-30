@@ -141,7 +141,7 @@
 .firstbg {
   background-image: url(photos/first3.JPG);
   width: 100%;
-  height: 900px;
+  height: 65vw;
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -249,10 +249,11 @@
 /* ABOUT US button ---------- */
 .b1-about {
   position: absolute;
-  top: 0%;
+  top: -10%;
   border: 2px solid white;
-  padding: 15px;
-  margin: 575px 45%;
+  text-align: center;
+  padding: 1vw;
+  margin: 45%;
   color: white;
   font-size: 1.4vw;
   font-family: "Lato", sans-serif;
@@ -261,10 +262,10 @@
 
 .b1-about:hover {
   position: absolute;
-  top: 0%;
+  top: -10%;
   border: 2px solid white;
-  padding: 15px;
-  margin: 575px 45%;
+  padding: 1vw;
+  margin: 45%;
   background-color: rgb(156, 156, 156);
   color: black;
   font-size: 1.4vw;
@@ -278,7 +279,7 @@
 .secondbg {
   background-image: url(photos/first.JPG);
   width: 100%;
-  height: 900px;
+  height: 65vw;
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -312,23 +313,24 @@
 /* Learn More button */
 .b2-projs {
   position: absolute;
-  top: 0%;
+  top: -10%;
   border: 2px solid white;
   background-color: transparent;
-  padding: 15px;
-  margin: 550px 45%;
+  padding: 0.9vw;
+  margin: 45%;
   color: white;
   font-size: 1.2vw;
+  text-align: center;
   font-family: "Lato", sans-serif;
   text-decoration: none;
 }
 
 .b2-projs:hover {
   position: absolute;
-  top: 0%;
+  top: -10%;
   border: 2px solid white;
-  padding: 15px;
-  margin: 550px 45%;
+  padding: 0.9vw;
+  margin: 45%;
   background-color: rgb(156, 156, 156);
   color: black;
   font-size: 1.2vw;
@@ -340,7 +342,7 @@
 .thirdbg {
   background-image: url(photos/first5.JPG);
   width: 100%;
-  height: 700px;
+  height: 65vw;
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -362,8 +364,8 @@
   position: absolute;
   top: -10%;
   border: 2px solid white;
-  padding: 15px;
-  margin: 500px 45%;
+  padding: 1vw;
+  margin: 45%;
   color: white;
   font-size: 1.4vw;
   font-family: "Lato", sans-serif;
@@ -373,8 +375,8 @@
 .b3-give:hover {
   position: absolute;
   border: 2px solid white;
-  padding: 15px;
-  margin: 500px 45%;
+  padding: 1vw;
+  margin: 45%;
   background-color: rgb(156, 156, 156);
   color: black;
   font-size: 1.4vw;
